@@ -1,0 +1,276 @@
+
+body{
+    background-color: #ffe6b3;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Centrecollegeseal.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    right: 90%;
+    top: 10%;
+    
+    
+}
+
+.special#special1{
+    background-color: aqua;
+    font-family: cursive;
+}
+.day-box{
+    padding: 10px;
+    margin: 10px;
+
+}
+h1{
+    position: relative;
+    left: 45%;
+    
+}
+
+div.day{
+    padding: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+    
+.day-box.PREP{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+}
+
+.day-box.PREP .day{
+    float: left;
+    padding: 5px;
+}
+
+.day-box.PREP .reading-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box.PREP .prep-box{
+    clear: both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box.CURRENT{
+    clear: both;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    height: 185px;
+    border-bottom-color: rgb(0,0,200,.8);
+}
+  
+.day-box.CURRENT .day{
+    float: right;
+    clear: both;
+    padding: 5px;
+}
+
+.day-box.CURRENT .reading-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box.CURRENT .prep-box{
+    clear:both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box.CURRENT .lab-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+
+
+.day-box.COMPLETED{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+    height: 190px;
+}
+
+.day-box.COMPLETED .day{
+    float: left;
+}
+
+.day-box.COMPLETED .reading-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box.COMPLETED .prep-box{
+    clear: both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.day-box.COMPLETED .lab-box{
+    float: left;
+    width: 75%;
+    clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+
+div:nth-last-child(100){
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgb(0,0,200,.8);
+    border-bottom-color: rgb(0,0,200,.8);
+}
+
+.day-box.COMPLETED:nth-last-type(even) .day{
+    float: right;
+    clear: both;
+    padding: 5px;
+    color: aliceblue;
+}
+
+div:nth-last-type(100) .reading-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+div:nth-last-type(100) .prep-box{
+    clear: both;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+div:nth-last-type(100) .lab-box{
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+
+div.day-box{
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header .nav{  
+    padding: 10px;
+    border: 10px solid rebeccapurple;
+    font-size: 24px;
+    font-family: 'Monsterrat';
+
+}
+.header .person_info img{
+    padding: 10px;
+    width: 15%;
+    height: 15%;
+}
+    
+
+
+.header .person_info span.username{
+    position: relative;
+    top: -100px;
+    left: 18%;
+    font-size: 24px;
+    padding: 10px;
+    border: 7px solid rebeccapurple;
+    font-family: 'Monsterrat';
+} 
+
+body table tbody img{
+    border: 3px solid indianred;
+    padding 2px;
+    height: 15%;
+    width: 15%;
+
+}
+table{
+    border: 3px solid indianred;
+    padding 2px;
+}
+.header .nav a:hover, .header .nav a:active {
+font-size: 150%;
+color: red;
+}
+.header .nav a{
+ padding: 20px;
+   
+}
+.header .partners .person_info a{
+    border: 10px solid rebeccapurple;
+    padding: 2px;
+}
+.header .partners .person_info a:hover, .header .partners .person_info a:active{
+font-size: 150%;
+    color: red;
+    
+}
