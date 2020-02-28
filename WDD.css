@@ -111,16 +111,16 @@ div.day{
 .COMPLETED:nth-child(2n){
     border-top-style: solid;
     border-bottom-style: solid;
-    border-top-color: rgb(250,0,200,.8);
+    border-top-color: rgb(0,0,200,.8);
     border-bottom-color: rgb(0,0,200,.8);
-    height: 190px;
+    overflow:auto;
 }
 
-.day-box.COMPLETED .day{
+.COMPLETED:nth-child(2n) .day{
     float: left;
 }
 
-.day-box.COMPLETED .reading-box{
+.COMPLETED:nth-child(2n) .reading-box{
     float: left;
     width: 75%;
     clear: both;
