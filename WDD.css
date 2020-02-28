@@ -57,7 +57,13 @@ div.day{
 }
 
 .PREP .prep-box{
+    float: left;
+    width: 75%;
     clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
     font-size: large;
     font-family: sans-serif;
 }
@@ -103,7 +109,13 @@ div.day{
 }
 
 .CURRENT .prep-box{
-    clear:both;
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
     font-size: large;
     font-family: sans-serif;
 }
@@ -150,7 +162,13 @@ div.day{
 }
 
 .COMPLETED:nth-child(2n) .prep-box{
+    float: left;
+    width: 75%;
     clear: both;
+    padding: 10px;
+    border: 2px solid rgb(30, 144,255);
+    border-radius: 15px;
+    background-color: antiquewhite;
     font-size: large;
     font-family: sans-serif;
 }
@@ -198,7 +216,13 @@ div.day{
 }
 
 .COMPLETED:nth-child(2n+1) .prep-box{
-    clear:both;
+    float: right;
+    width: 75%;
+    clear: both;
+    border: 2px solid antiquewhite;
+    background-color: rgb(30,144,255,0.75);
+    padding: 10px;
+    border-radius: 15px;
     font-size: large;
     font-family: sans-serif;
 }
