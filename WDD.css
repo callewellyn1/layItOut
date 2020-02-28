@@ -60,7 +60,7 @@ div.day{
     display: none;
 }
 
-.PREP .prep-box{
+//.PREP .prep-box{
     float: left;
     width: 75%;
     clear: both;
@@ -120,7 +120,7 @@ div.day{
     display: none;
 }
 
-.CURRENT .prep-box{
+//.CURRENT .prep-box{
     float: right;
     width: 75%;
     clear: both;
